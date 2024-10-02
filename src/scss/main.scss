@@ -1,11 +1,14 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 0px;
   padding: 0;
 }
 
 a {
   color: inherit;
+}
+body {
+  background: #f7f7f7;
 }
 
 img,
@@ -15,14 +18,119 @@ video {
 
 @import "bootstrap/scss/bootstrap-grid";
 
-.row + .row {
-  margin-top: 16px;
+.title {
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 60px;
+  font-weight: 400;
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+.header {
+  background-color: white;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
+
+.image {
+  width: 100%;
+}
+
+.sous-titre {
+  text-align: center;
+  font-family: "DM Serif Display";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+.content {
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.text-content-1,
+.text-content-2,
+.text-content-3 {
+  padding: 0 10px;
+}
+
+.infos {
+  text-align: center;
+  font-family: Heebo;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-bottom: 30px;
+}
+
+.time {
+  color: #b3b3b3;
+  font-family: Heebo;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 20px;
+}
+.review-title {
+  font-family: Heebo;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 50px;
+  background: #eee;
+  padding: 0px 20px;
+}
+
+.review-name {
+  font-family: "DM Serif Display";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.content-review {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.italic {
+  font-family: "DM Serif Display";
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.sous-titre-review-1,
+.sous-titre-review-2,
+.sous-titre-review-3 {
+  font-family: Heebo;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 20px 0px;
+}
+
+.text-review {
+  font-family: Heebo;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.review-name-2,
+.review-name-3 {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.free,
+.sunshine {
+  font-family: Heebo;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
 }
